@@ -42,10 +42,10 @@ services:
       - keycloak-postgres
     volumes:
       - type: bind
-        source: ./custom-scripts.jar
-        target: /opt/keycloak/providers/custom-scripts.jar
+        source: ./script.jar
+        target: /opt/keycloak/providers/script.jar
         read_only: true
       - type: bind
-        source: ./realm/realm-export.json
+        source: ./realm/dfa.json
         target: /opt/keycloak/data/import/realm-export.json
         read_only: true
