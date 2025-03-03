@@ -5,6 +5,11 @@
             "name": "Company required",
             "fileName": "company-required.js",
             "description": "Gives access only if company assigned"
+        },
+        {
+            "name": "User has active status",
+            "fileName": "user-active.js",
+            "description": "Gives access only if user has active status"
         }
     ],
     "mappers": [],
